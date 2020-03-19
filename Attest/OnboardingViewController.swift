@@ -11,8 +11,8 @@ import UIKit
 class IntroductionViewController: UIViewController {
 
     var profiles: [Profile] = {
-        if Storage.fileExists("profiles.json", in: .documents) {
-            return Storage.retrieve("profiles.json", from: .documents, as: [Profile].self)
+        if Storage.fileExists("profiles.json", in: .caches) {
+            return Storage.retrieve("profiles.json", from: .caches, as: [Profile].self)
         }
         return []
     }()

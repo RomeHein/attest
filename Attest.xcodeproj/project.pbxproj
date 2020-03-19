@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D720202C2423AF4D00B9393B /* UIControl+closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720202B2423AF4D00B9393B /* UIControl+closure.swift */; };
 		D74E1A892422310F00479DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A882422310F00479DE3 /* AppDelegate.swift */; };
 		D74E1A8B2422310F00479DE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */; };
 		D74E1A8D2422310F00479DE3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A8C2422310F00479DE3 /* OnboardingViewController.swift */; };
@@ -23,11 +24,13 @@
 		D75CEB742422834B00B12FC1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB732422834B00B12FC1 /* UIView.swift */; };
 		D75CEB76242295BC00B12FC1 /* SignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB75242295BC00B12FC1 /* SignatureView.swift */; };
 		D75CEB782422D18200B12FC1 /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB772422D18200B12FC1 /* PdfViewController.swift */; };
-		D75CEB7D2422E3B900B12FC1 /* TextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB7C2422E3B900B12FC1 /* TextAnnotation.swift */; };
 		D75CEB7F2422E3CA00B12FC1 /* SignatureAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB7E2422E3CA00B12FC1 /* SignatureAnnotation.swift */; };
+		D75CEB822423799A00B12FC1 /* TextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB812423799A00B12FC1 /* TextAnnotation.swift */; };
+		D75CEB842423962A00B12FC1 /* ChoiceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB832423962A00B12FC1 /* ChoiceAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D720202B2423AF4D00B9393B /* UIControl+closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+closure.swift"; sourceTree = "<group>"; };
 		D74E1A852422310F00479DE3 /* Attest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74E1A882422310F00479DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,8 +49,9 @@
 		D75CEB732422834B00B12FC1 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		D75CEB75242295BC00B12FC1 /* SignatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureView.swift; sourceTree = "<group>"; };
 		D75CEB772422D18200B12FC1 /* PdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
-		D75CEB7C2422E3B900B12FC1 /* TextAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnnotation.swift; sourceTree = "<group>"; };
 		D75CEB7E2422E3CA00B12FC1 /* SignatureAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureAnnotation.swift; sourceTree = "<group>"; };
+		D75CEB812423799A00B12FC1 /* TextAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnnotation.swift; sourceTree = "<group>"; };
+		D75CEB832423962A00B12FC1 /* ChoiceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,7 @@
 		D74E1A872422310F00479DE3 /* Attest */ = {
 			isa = PBXGroup;
 			children = (
-				D75CEB7B2422E38200B12FC1 /* pdf */,
+				D75CEB802423798300B12FC1 /* PdfAnnotation */,
 				D74E1AA72422580300479DE3 /* extension */,
 				D74E1AA32422498B00479DE3 /* Template */,
 				D74E1AA02422496600479DE3 /* model */,
@@ -130,17 +134,19 @@
 			children = (
 				D74E1AA824225A4300479DE3 /* UITextfield+InputView.swift */,
 				D75CEB732422834B00B12FC1 /* UIView.swift */,
+				D720202B2423AF4D00B9393B /* UIControl+closure.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
 		};
-		D75CEB7B2422E38200B12FC1 /* pdf */ = {
+		D75CEB802423798300B12FC1 /* PdfAnnotation */ = {
 			isa = PBXGroup;
 			children = (
-				D75CEB7C2422E3B900B12FC1 /* TextAnnotation.swift */,
 				D75CEB7E2422E3CA00B12FC1 /* SignatureAnnotation.swift */,
+				D75CEB812423799A00B12FC1 /* TextAnnotation.swift */,
+				D75CEB832423962A00B12FC1 /* ChoiceAnnotation.swift */,
 			);
-			path = pdf;
+			path = PdfAnnotation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,14 +223,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74E1A9F242248E700479DE3 /* NewProfileViewController.swift in Sources */,
+				D75CEB822423799A00B12FC1 /* TextAnnotation.swift in Sources */,
 				D75CEB7F2422E3CA00B12FC1 /* SignatureAnnotation.swift in Sources */,
 				D74E1AA62422548600479DE3 /* Storage.swift in Sources */,
 				D74E1AA22422497200479DE3 /* Profile.swift in Sources */,
-				D75CEB7D2422E3B900B12FC1 /* TextAnnotation.swift in Sources */,
 				D74E1AA924225A4300479DE3 /* UITextfield+InputView.swift in Sources */,
 				D74E1A8D2422310F00479DE3 /* OnboardingViewController.swift in Sources */,
+				D720202C2423AF4D00B9393B /* UIControl+closure.swift in Sources */,
 				D74E1A892422310F00479DE3 /* AppDelegate.swift in Sources */,
 				D75CEB782422D18200B12FC1 /* PdfViewController.swift in Sources */,
+				D75CEB842423962A00B12FC1 /* ChoiceAnnotation.swift in Sources */,
 				D74E1A9D2422388500479DE3 /* AttestationViewController.swift in Sources */,
 				D75CEB76242295BC00B12FC1 /* SignatureView.swift in Sources */,
 				D75CEB742422834B00B12FC1 /* UIView.swift in Sources */,
@@ -375,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WAU5B497M;
 				INFOPLIST_FILE = Attest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WAU5B497M;
 				INFOPLIST_FILE = Attest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

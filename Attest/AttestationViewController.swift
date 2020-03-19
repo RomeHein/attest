@@ -16,6 +16,7 @@ class AttestationViewController: UIViewController {
     @IBOutlet var informationButton: UIButton?
     @IBOutlet var profileContainerView: UIView?
     var selectedProfile: Profile?
+    var selectedRaison = 0
     
     lazy var raisons: [String] = {
         var nsDictionary: NSDictionary?
@@ -28,8 +29,8 @@ class AttestationViewController: UIViewController {
     }()
     
     var profiles: [Profile] = {
-        if Storage.fileExists("profiles.json", in: .documents) {
-            return Storage.retrieve("profiles.json", from: .documents, as: [Profile].self)
+        if Storage.fileExists("profiles.json", in: .caches) {
+            return Storage.retrieve("profiles.json", from: .caches, as: [Profile].self)
         }
         return []
     }()
@@ -46,16 +47,27 @@ class AttestationViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if (segue.identifier == "attestation") {
-            let vc = segue.destination as! PdfViewController
+        if let vc = segue.destination as? PdfViewController {
             vc.profile = selectedProfile
+            vc.raisonNumber = selectedRaison
         }
+    }
+    
+    func removeProfile(at index: Int) {
+        var tempProfiles = profiles
+        tempProfiles.remove(at: index)
+        if let name = profiles[index].fullName {
+            Storage.remove(name.trimmingCharacters(in: .whitespaces).lowercased() + ".jpg", from: .caches)
+        }
+        Storage.store(tempProfiles, to: .caches, as: "profiles.json")
+        profileTableView?.reloadData()
     }
 }
 
 extension AttestationViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == attestationTableView {
+            selectedRaison = indexPath.row
             performSegue(withIdentifier: "attestation", sender: nil)
         } else {
             selectedProfile = profiles[indexPath.row]
@@ -80,11 +92,17 @@ extension AttestationViewController: UITableViewDataSource {
             if let roundedView = cell.viewWithTag(2){
                 roundedView.layer.cornerRadius = 10
             }
+            cell.selectionStyle = .none
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "profile", for: indexPath)
             if let profileNameLabel = cell.viewWithTag(1) as? UILabel {
                 profileNameLabel.text = profiles[indexPath.row].fullName
+            }
+            if let deleteButton = cell.viewWithTag(2) as? UIButton {
+                deleteButton.addAction(for: .touchUpInside) {[weak self] (button) in
+                    self?.removeProfile(at: indexPath.row)
+                }
             }
             return cell
         }

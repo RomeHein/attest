@@ -66,12 +66,12 @@ class NewProfileViewController: UIViewController {
             let signature = signatureView?.image,
             signatureView?.hasDraw == true {
             var profiles = [Profile]()
-            if Storage.fileExists("profiles.json", in: .documents) {
-                profiles = Storage.retrieve("profiles.json", from: .documents, as: [Profile].self)
+            if Storage.fileExists("profiles.json", in: .caches) {
+                profiles = Storage.retrieve("profiles.json", from: .caches, as: [Profile].self)
             }
             profiles.append(newProfile)
-            Storage.store(profiles, to: .documents, as: "profiles.json")
-            Storage.store(signature, to: .documents, as: name.trimmingCharacters(in: .whitespaces).lowercased() + ".jpg")
+            Storage.store(profiles, to: .caches, as: "profiles.json")
+            Storage.store(signature, to: .caches, as: name.trimmingCharacters(in: .whitespaces).lowercased() + ".jpg")
             dismiss(animated: true)
         } else {
             
