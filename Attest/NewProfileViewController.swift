@@ -8,7 +8,8 @@
 
 import UIKit
 
-class NewProfileViewController: UIViewController {
+class NewProfileViewController: UIViewController, Away {
+    weak var home: Home?
     
     @IBOutlet var nameTextField: UITextField?
     @IBOutlet var dobTextField: UITextField?
@@ -25,6 +26,11 @@ class NewProfileViewController: UIViewController {
         addressTextField?.setAccessoryView(target: self, selector: #selector(nextTextField))
         cityTextField?.setAccessoryView(target: self, selector: #selector(nextTextField))
         dobTextField?.setInputViewDatePicker()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.notifyComingHome()
     }
 
     @objc func nextTextField() {

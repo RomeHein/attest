@@ -8,72 +8,86 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Introduction View Controller-->
+        <!--Onboarding View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="IntroductionViewController" customModule="Attest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="OnboardingViewController" customModule="Attest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhF-rG-yQx">
                                 <rect key="frame" x="30" y="212" width="354" height="172"/>
-                                <string key="text">Créez rapidement toutes vos attestations de déplacement en une seule fois ! Vous pouvez créer plusieurs profils pour votre famille. Puis les partager/imprimer facilement.</string>
+                                <string key="text">Créez rapidement toutes vos attestations de déplacement en une seule fois ! Vous pouvez créer plusieurs profils pour votre famille, puis les partager/imprimer facilement.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCk-t5-g70">
-                                <rect key="frame" x="138" y="404" width="138" height="40"/>
+                                <rect key="frame" x="121" y="404" width="172" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="cl0-VR-LrF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <state key="normal" title="Commencer"/>
                                 <connections>
-                                    <segue destination="NZc-Yg-vaN" kind="presentation" id="wD9-Ba-AyH"/>
+                                    <action selector="showWarningMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="ByQ-Oz-iyK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attestation sur l'honneur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPg-5f-hxm">
-                                <rect key="frame" x="44" y="67" width="326.5" height="32.5"/>
+                                <rect key="frame" x="44" y="30" width="326.5" height="32.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMPORTANT RGPD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zht-SE-t3A">
-                                <rect key="frame" x="117" y="626.5" width="180" height="24"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="124.5" y="598" width="165" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIJ-ox-dZW">
-                                <rect key="frame" x="10" y="660.5" width="394" height="137.5"/>
-                                <string key="text">Vos informations ne sont ni utilisées, ni envoyées ou que ce soit. Le code source de cette application est consultable et vérifiable via Github à l'adresse suivant:</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <rect key="frame" x="30" y="629.5" width="354" height="125.5"/>
+                                <string key="text">Vos données personnelles ne sont ni collectées, ni communiquées, ni stockées (autre que localement sur votre téléphone). Vous pouvez supprimer ces données de façon définitive en supprimant simplement l'application de votre téléphone. Le code source de cette application est consultable et vérifiable via Github à l'adresse suivante:</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4K-jy-K4b">
+                                <rect key="frame" x="30" y="760" width="354" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="https://github.com/RomeHein/attest/tree/master/Attest"/>
+                                <connections>
+                                    <action selector="openLink" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jos-Dq-6Oa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lIJ-ox-dZW" secondAttribute="bottom" constant="10" id="8Hc-Wx-KDu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lIJ-ox-dZW" secondAttribute="trailing" constant="10" id="BGP-1n-u9m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lIJ-ox-dZW" secondAttribute="trailing" constant="30" id="BGP-1n-u9m"/>
+                            <constraint firstItem="B4K-jy-K4b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="J1P-i7-XQo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bhF-rG-yQx" secondAttribute="trailing" constant="30" id="JRl-bn-Dnd"/>
                             <constraint firstItem="bhF-rG-yQx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Mbo-zH-8KM"/>
+                            <constraint firstItem="B4K-jy-K4b" firstAttribute="top" secondItem="lIJ-ox-dZW" secondAttribute="bottom" constant="5" id="UZC-uP-vnu"/>
                             <constraint firstItem="bhF-rG-yQx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VRT-XS-j6f"/>
                             <constraint firstItem="dPg-5f-hxm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cJt-be-5mj"/>
                             <constraint firstItem="jCk-t5-g70" firstAttribute="centerX" secondItem="bhF-rG-yQx" secondAttribute="centerX" id="fAJ-6E-Szd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B4K-jy-K4b" secondAttribute="trailing" constant="30" id="fBc-oF-R9W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B4K-jy-K4b" secondAttribute="bottom" constant="20" id="h0w-Cf-cQQ"/>
                             <constraint firstItem="lIJ-ox-dZW" firstAttribute="top" secondItem="zht-SE-t3A" secondAttribute="bottom" constant="10" id="h1j-yI-PLB"/>
                             <constraint firstItem="jCk-t5-g70" firstAttribute="top" secondItem="bhF-rG-yQx" secondAttribute="bottom" constant="20" id="iKQ-cr-cAt"/>
-                            <constraint firstItem="dPg-5f-hxm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="67" id="oEJ-UE-Adw"/>
+                            <constraint firstItem="dPg-5f-hxm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="oEJ-UE-Adw"/>
                             <constraint firstItem="zht-SE-t3A" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jCk-t5-g70" secondAttribute="bottom" constant="10" id="tEv-tL-lHv"/>
-                            <constraint firstItem="lIJ-ox-dZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wvR-FB-4SR"/>
+                            <constraint firstItem="lIJ-ox-dZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="wvR-FB-4SR"/>
                             <constraint firstItem="zht-SE-t3A" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xq6-LJ-u5f"/>
                             <constraint firstItem="jCk-t5-g70" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="centerY" priority="998" id="yhS-bL-8Ou"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="gqW-bs-QfZ"/>
+                    <connections>
+                        <segue destination="NZc-Yg-vaN" kind="show" identifier="create" id="QbC-5o-iIV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,7 +201,7 @@
                                         <rect key="frame" x="284" y="5.5" width="100" height="30"/>
                                         <state key="normal" title="Nouveau profil"/>
                                         <connections>
-                                            <segue destination="NZc-Yg-vaN" kind="presentation" id="lQ3-tH-1AY"/>
+                                            <segue destination="NZc-Yg-vaN" kind="presentation" identifier="create" id="lQ3-tH-1AY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -205,6 +219,9 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7R-Jc-oAM">
                                 <rect key="frame" x="369" y="67" width="25" height="24"/>
+                                <connections>
+                                    <segue destination="jel-WD-9b7" kind="presentation" id="hV7-zk-Kff"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -251,7 +268,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom Prénom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h6w-hK-Umj">
                                 <rect key="frame" x="20" y="114.5" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="name"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" smartInsertDeleteType="yes" textContentType="name"/>
                                 <connections>
                                     <outlet property="delegate" destination="NZc-Yg-vaN" id="uYH-Zk-4Go"/>
                                 </connections>
@@ -354,6 +371,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zkH-2X-U2A"/>
                     </view>
+                    <navigationItem key="navigationItem" id="SiI-Fe-Iac"/>
                     <connections>
                         <outlet property="addressTextField" destination="JZK-GX-MPd" id="lhe-Up-nh4"/>
                         <outlet property="cityTextField" destination="2dg-dO-8TJ" id="znG-8R-LIi"/>
@@ -415,8 +433,83 @@
             </objects>
             <point key="canvasLocation" x="1057.9710144927537" y="841.74107142857144"/>
         </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="2M3-Nj-oTw">
+            <objects>
+                <viewController id="jel-WD-9b7" customClass="SettingViewController" customModule="Attest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A1i-UY-czj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obV-vp-JyM">
+                                <rect key="frame" x="345" y="20" width="49" height="30"/>
+                                <state key="normal" title="Fermer"/>
+                                <connections>
+                                    <action selector="close" destination="jel-WD-9b7" eventType="touchUpInside" id="AwS-fS-EnW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RGPD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIh-IA-UXO">
+                                <rect key="frame" x="30" y="70" width="56.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPX-kx-c11">
+                                <rect key="frame" x="30" y="109" width="354" height="233"/>
+                                <mutableString key="text">Vos données personnelles ne sont ni collectées, ni communiquées, ni stockées (autre que localement sur votre téléphone). Quand vous créez un profil, toutes les informations relatives à celui-ci sont stockées dans un fichier temporaire au sein même de l'application. Cela permet d'éviter toute synchronisation avec les serveurs iCould. Evidemment, aucune donnée n'est envoyée en dehors de l'application. D'ailleurs celle-ci peut tout à fait être utilisée en mode avion. Pour supprimer vos profils, vous pouvez soit les supprimer un-à-un via la page d'accueil de l'application, soit supprimer l'application de votre téléphone.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGz-P3-UyZ">
+                                <rect key="frame" x="30" y="372" width="52" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6V2-o2-kHY">
+                                <rect key="frame" x="30" y="411" width="354" height="90"/>
+                                <string key="text">Vous pouvez consulter le code de cette application via le lien ci-dessous, et également y participer. Le design est pour l'instant très sommaire et de nombreuses fonctionnalités peuvent y être ajoutées.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiO-DB-Rmu">
+                                <rect key="frame" x="30" y="531" width="354" height="30"/>
+                                <state key="normal" title="https://github.com/RomeHein/attest/tree/master/Attest"/>
+                                <connections>
+                                    <action selector="openLink" destination="jel-WD-9b7" eventType="touchUpInside" id="2c7-Ey-YDb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ZIh-IA-UXO" firstAttribute="top" secondItem="obV-vp-JyM" secondAttribute="bottom" constant="20" id="2zO-bI-Zsf"/>
+                            <constraint firstItem="obV-vp-JyM" firstAttribute="top" secondItem="QKY-M5-b5G" secondAttribute="top" constant="20" id="9o4-by-djd"/>
+                            <constraint firstItem="cPX-kx-c11" firstAttribute="top" secondItem="ZIh-IA-UXO" secondAttribute="bottom" constant="15" id="Cve-dN-5Sq"/>
+                            <constraint firstItem="QKY-M5-b5G" firstAttribute="trailing" secondItem="cPX-kx-c11" secondAttribute="trailing" constant="30" id="DMG-Pi-WV4"/>
+                            <constraint firstItem="QKY-M5-b5G" firstAttribute="trailing" secondItem="obV-vp-JyM" secondAttribute="trailing" constant="20" id="Haa-vW-ccZ"/>
+                            <constraint firstItem="cPX-kx-c11" firstAttribute="leading" secondItem="QKY-M5-b5G" secondAttribute="leading" constant="30" id="HwF-Dg-AbL"/>
+                            <constraint firstItem="QGz-P3-UyZ" firstAttribute="leading" secondItem="QKY-M5-b5G" secondAttribute="leading" constant="30" id="M5Q-Z4-Q3a"/>
+                            <constraint firstItem="QKY-M5-b5G" firstAttribute="trailing" secondItem="DiO-DB-Rmu" secondAttribute="trailing" constant="30" id="P20-1w-HlR"/>
+                            <constraint firstItem="DiO-DB-Rmu" firstAttribute="top" secondItem="6V2-o2-kHY" secondAttribute="bottom" constant="30" id="RaG-vj-bKn"/>
+                            <constraint firstItem="6V2-o2-kHY" firstAttribute="leading" secondItem="QKY-M5-b5G" secondAttribute="leading" constant="30" id="Zjg-ly-Ejb"/>
+                            <constraint firstItem="6V2-o2-kHY" firstAttribute="trailing" secondItem="QKY-M5-b5G" secondAttribute="trailing" constant="-30" id="iwh-LW-h0l"/>
+                            <constraint firstItem="QKY-M5-b5G" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DiO-DB-Rmu" secondAttribute="bottom" constant="20" id="msh-L8-UKi"/>
+                            <constraint firstItem="ZIh-IA-UXO" firstAttribute="leading" secondItem="QKY-M5-b5G" secondAttribute="leading" constant="30" id="rql-Op-xCw"/>
+                            <constraint firstItem="QGz-P3-UyZ" firstAttribute="top" secondItem="cPX-kx-c11" secondAttribute="bottom" constant="30" id="w0y-Df-Yb6"/>
+                            <constraint firstItem="DiO-DB-Rmu" firstAttribute="leading" secondItem="QKY-M5-b5G" secondAttribute="leading" constant="30" id="xZM-O3-2rq"/>
+                            <constraint firstItem="6V2-o2-kHY" firstAttribute="top" secondItem="QGz-P3-UyZ" secondAttribute="bottom" constant="15" id="zef-Jh-OgU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QKY-M5-b5G"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mI8-uK-5wF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1058" y="1543"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wD9-Ba-AyH"/>
+        <segue reference="QbC-5o-iIV"/>
     </inferredMetricsTieBreakers>
 </document>

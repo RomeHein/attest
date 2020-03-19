@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D720202C2423AF4D00B9393B /* UIControl+closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720202B2423AF4D00B9393B /* UIControl+closure.swift */; };
+		D720202E2423B83D00B9393B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720202D2423B83D00B9393B /* Home.swift */; };
+		D72020302423C45C00B9393B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720202F2423C45C00B9393B /* SettingViewController.swift */; };
 		D74E1A892422310F00479DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A882422310F00479DE3 /* AppDelegate.swift */; };
 		D74E1A8B2422310F00479DE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */; };
 		D74E1A8D2422310F00479DE3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A8C2422310F00479DE3 /* OnboardingViewController.swift */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		D720202B2423AF4D00B9393B /* UIControl+closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+closure.swift"; sourceTree = "<group>"; };
+		D720202D2423B83D00B9393B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D720202F2423C45C00B9393B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		D74E1A852422310F00479DE3 /* Attest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74E1A882422310F00479DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				D74E1A962422311200479DE3 /* Info.plist */,
 				D75CEB75242295BC00B12FC1 /* SignatureView.swift */,
 				D75CEB772422D18200B12FC1 /* PdfViewController.swift */,
+				D720202F2423C45C00B9393B /* SettingViewController.swift */,
 			);
 			path = Attest;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				D74E1AA824225A4300479DE3 /* UITextfield+InputView.swift */,
 				D75CEB732422834B00B12FC1 /* UIView.swift */,
 				D720202B2423AF4D00B9393B /* UIControl+closure.swift */,
+				D720202D2423B83D00B9393B /* Home.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -227,6 +233,7 @@
 				D75CEB7F2422E3CA00B12FC1 /* SignatureAnnotation.swift in Sources */,
 				D74E1AA62422548600479DE3 /* Storage.swift in Sources */,
 				D74E1AA22422497200479DE3 /* Profile.swift in Sources */,
+				D72020302423C45C00B9393B /* SettingViewController.swift in Sources */,
 				D74E1AA924225A4300479DE3 /* UITextfield+InputView.swift in Sources */,
 				D74E1A8D2422310F00479DE3 /* OnboardingViewController.swift in Sources */,
 				D720202C2423AF4D00B9393B /* UIControl+closure.swift in Sources */,
@@ -236,6 +243,7 @@
 				D74E1A9D2422388500479DE3 /* AttestationViewController.swift in Sources */,
 				D75CEB76242295BC00B12FC1 /* SignatureView.swift in Sources */,
 				D75CEB742422834B00B12FC1 /* UIView.swift in Sources */,
+				D720202E2423B83D00B9393B /* Home.swift in Sources */,
 				D74E1A8B2422310F00479DE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

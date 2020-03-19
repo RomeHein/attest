@@ -10,7 +10,6 @@ import UIKit
 
 
 class AttestationViewController: UIViewController {
-    
     @IBOutlet var attestationTableView: UITableView?
     @IBOutlet var profileTableView: UITableView?
     @IBOutlet var informationButton: UIButton?
@@ -28,16 +27,15 @@ class AttestationViewController: UIViewController {
         return []
     }()
     
-    var profiles: [Profile] = {
-        if Storage.fileExists("profiles.json", in: .caches) {
-            return Storage.retrieve("profiles.json", from: .caches, as: [Profile].self)
+    var profiles: [Profile] {
+        get {
+            if Storage.fileExists("profiles.json", in: .caches) {
+                return Storage.retrieve("profiles.json", from: .caches, as: [Profile].self)
+            }
+            return []
         }
-        return []
-    }()
-    override func viewDidLoad() {
-        super.viewDidLoad()
     }
-    
+        
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         profileContainerView?.round(corners: [.topLeft,.topRight], radius: 10)
@@ -48,8 +46,16 @@ class AttestationViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? PdfViewController {
-            vc.profile = selectedProfile
+            if let profile = selectedProfile {
+                 vc.profile = profile
+            } else if profiles.count > 0 {
+                vc.profile = profiles[0]
+            }
             vc.raisonNumber = selectedRaison
+        } else if let vc = segue.destination as? NewProfileViewController {
+            vc.home = self
+        } else if let vc = segue.destination as? OnboardingViewController {
+            vc.home = self
         }
     }
     
@@ -60,6 +66,12 @@ class AttestationViewController: UIViewController {
             Storage.remove(name.trimmingCharacters(in: .whitespaces).lowercased() + ".jpg", from: .caches)
         }
         Storage.store(tempProfiles, to: .caches, as: "profiles.json")
+        profileTableView?.reloadData()
+    }
+}
+
+extension AttestationViewController: Home {
+    func comingHome() {
         profileTableView?.reloadData()
     }
 }
