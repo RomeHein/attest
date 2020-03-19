@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  Attestation Déplacement
+//  Attest
 //
-//  Created by Dev on 18/03/2020.
-//  Copyright © 2020 Dev. All rights reserved.
+//  Created by Romain Cayzac on 18/03/2020.
+//  Copyright © 2020 Romain Cayzac. All rights reserved.
 //
 
 import UIKit

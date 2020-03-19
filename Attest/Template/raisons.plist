@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fr</key>
+	<array>
+		<string>Déplacements professionnels</string>
+		<string>Achats de première nécessité</string>
+		<string>Santé</string>
+		<string>Famille</string>
+		<string>Petits déplacements, animaux</string>
+	</array>
+</dict>
+</plist>

@@ -9,23 +9,45 @@
 /* Begin PBXBuildFile section */
 		D74E1A892422310F00479DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A882422310F00479DE3 /* AppDelegate.swift */; };
 		D74E1A8B2422310F00479DE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */; };
-		D74E1A8D2422310F00479DE3 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A8C2422310F00479DE3 /* IntroductionViewController.swift */; };
+		D74E1A8D2422310F00479DE3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A8C2422310F00479DE3 /* OnboardingViewController.swift */; };
 		D74E1A902422310F00479DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74E1A8E2422310F00479DE3 /* Main.storyboard */; };
 		D74E1A922422311200479DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74E1A912422311200479DE3 /* Assets.xcassets */; };
 		D74E1A952422311200479DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74E1A932422311200479DE3 /* LaunchScreen.storyboard */; };
 		D74E1A9D2422388500479DE3 /* AttestationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A9C2422388500479DE3 /* AttestationViewController.swift */; };
+		D74E1A9F242248E700479DE3 /* NewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1A9E242248E700479DE3 /* NewProfileViewController.swift */; };
+		D74E1AA22422497200479DE3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1AA12422497200479DE3 /* Profile.swift */; };
+		D74E1AA62422548600479DE3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1AA52422548600479DE3 /* Storage.swift */; };
+		D74E1AA924225A4300479DE3 /* UITextfield+InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E1AA824225A4300479DE3 /* UITextfield+InputView.swift */; };
+		D74E1AAB242266AD00479DE3 /* attestation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D74E1AAA242266AD00479DE3 /* attestation.pdf */; };
+		D74E1AAD24226A6A00479DE3 /* raisons.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74E1AAC24226A6A00479DE3 /* raisons.plist */; };
+		D75CEB742422834B00B12FC1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB732422834B00B12FC1 /* UIView.swift */; };
+		D75CEB76242295BC00B12FC1 /* SignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB75242295BC00B12FC1 /* SignatureView.swift */; };
+		D75CEB782422D18200B12FC1 /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB772422D18200B12FC1 /* PdfViewController.swift */; };
+		D75CEB7D2422E3B900B12FC1 /* TextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB7C2422E3B900B12FC1 /* TextAnnotation.swift */; };
+		D75CEB7F2422E3CA00B12FC1 /* SignatureAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75CEB7E2422E3CA00B12FC1 /* SignatureAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D74E1A852422310F00479DE3 /* Attest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74E1A882422310F00479DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D74E1A8C2422310F00479DE3 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		D74E1A8C2422310F00479DE3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		D74E1A8F2422310F00479DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D74E1A912422311200479DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D74E1A942422311200479DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D74E1A962422311200479DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74E1A9C2422388500479DE3 /* AttestationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationViewController.swift; sourceTree = "<group>"; };
+		D74E1A9E242248E700479DE3 /* NewProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileViewController.swift; sourceTree = "<group>"; };
+		D74E1AA12422497200479DE3 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D74E1AA52422548600479DE3 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		D74E1AA824225A4300479DE3 /* UITextfield+InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield+InputView.swift"; sourceTree = "<group>"; };
+		D74E1AAA242266AD00479DE3 /* attestation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = attestation.pdf; path = ../../../../../../Downloads/attestation.pdf; sourceTree = "<group>"; };
+		D74E1AAC24226A6A00479DE3 /* raisons.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = raisons.plist; sourceTree = "<group>"; };
+		D75CEB732422834B00B12FC1 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		D75CEB75242295BC00B12FC1 /* SignatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureView.swift; sourceTree = "<group>"; };
+		D75CEB772422D18200B12FC1 /* PdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
+		D75CEB7C2422E3B900B12FC1 /* TextAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnnotation.swift; sourceTree = "<group>"; };
+		D75CEB7E2422E3CA00B12FC1 /* SignatureAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +80,67 @@
 		D74E1A872422310F00479DE3 /* Attest */ = {
 			isa = PBXGroup;
 			children = (
+				D75CEB7B2422E38200B12FC1 /* pdf */,
+				D74E1AA72422580300479DE3 /* extension */,
+				D74E1AA32422498B00479DE3 /* Template */,
+				D74E1AA02422496600479DE3 /* model */,
 				D74E1A882422310F00479DE3 /* AppDelegate.swift */,
 				D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */,
-				D74E1A8C2422310F00479DE3 /* IntroductionViewController.swift */,
+				D74E1A8C2422310F00479DE3 /* OnboardingViewController.swift */,
+				D74E1AA52422548600479DE3 /* Storage.swift */,
 				D74E1A9C2422388500479DE3 /* AttestationViewController.swift */,
+				D74E1A9E242248E700479DE3 /* NewProfileViewController.swift */,
 				D74E1A8E2422310F00479DE3 /* Main.storyboard */,
 				D74E1A912422311200479DE3 /* Assets.xcassets */,
 				D74E1A932422311200479DE3 /* LaunchScreen.storyboard */,
 				D74E1A962422311200479DE3 /* Info.plist */,
+				D75CEB75242295BC00B12FC1 /* SignatureView.swift */,
+				D75CEB772422D18200B12FC1 /* PdfViewController.swift */,
 			);
 			path = Attest;
+			sourceTree = "<group>";
+		};
+		D74E1AA02422496600479DE3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D74E1AA12422497200479DE3 /* Profile.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D74E1AA32422498B00479DE3 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				D74E1AAC24226A6A00479DE3 /* raisons.plist */,
+				D74E1AA42422499200479DE3 /* Fr */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		D74E1AA42422499200479DE3 /* Fr */ = {
+			isa = PBXGroup;
+			children = (
+				D74E1AAA242266AD00479DE3 /* attestation.pdf */,
+			);
+			path = Fr;
+			sourceTree = "<group>";
+		};
+		D74E1AA72422580300479DE3 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				D74E1AA824225A4300479DE3 /* UITextfield+InputView.swift */,
+				D75CEB732422834B00B12FC1 /* UIView.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		D75CEB7B2422E38200B12FC1 /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				D75CEB7C2422E3B900B12FC1 /* TextAnnotation.swift */,
+				D75CEB7E2422E3CA00B12FC1 /* SignatureAnnotation.swift */,
+			);
+			path = pdf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +204,8 @@
 				D74E1A952422311200479DE3 /* LaunchScreen.storyboard in Resources */,
 				D74E1A922422311200479DE3 /* Assets.xcassets in Resources */,
 				D74E1A902422310F00479DE3 /* Main.storyboard in Resources */,
+				D74E1AAB242266AD00479DE3 /* attestation.pdf in Resources */,
+				D74E1AAD24226A6A00479DE3 /* raisons.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +216,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74E1A8D2422310F00479DE3 /* IntroductionViewController.swift in Sources */,
+				D74E1A9F242248E700479DE3 /* NewProfileViewController.swift in Sources */,
+				D75CEB7F2422E3CA00B12FC1 /* SignatureAnnotation.swift in Sources */,
+				D74E1AA62422548600479DE3 /* Storage.swift in Sources */,
+				D74E1AA22422497200479DE3 /* Profile.swift in Sources */,
+				D75CEB7D2422E3B900B12FC1 /* TextAnnotation.swift in Sources */,
+				D74E1AA924225A4300479DE3 /* UITextfield+InputView.swift in Sources */,
+				D74E1A8D2422310F00479DE3 /* OnboardingViewController.swift in Sources */,
 				D74E1A892422310F00479DE3 /* AppDelegate.swift in Sources */,
+				D75CEB782422D18200B12FC1 /* PdfViewController.swift in Sources */,
 				D74E1A9D2422388500479DE3 /* AttestationViewController.swift in Sources */,
+				D75CEB76242295BC00B12FC1 /* SignatureView.swift in Sources */,
+				D75CEB742422834B00B12FC1 /* UIView.swift in Sources */,
 				D74E1A8B2422310F00479DE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,12 +374,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WAU5B497M;
-				INFOPLIST_FILE = "Attestation Déplacement/Info.plist";
+				INFOPLIST_FILE = Attest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Cynaptic.Attestation-De-placement";
+				PRODUCT_BUNDLE_IDENTIFIER = Cynaptic.Attest;
 				PRODUCT_NAME = Attest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,12 +392,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WAU5B497M;
-				INFOPLIST_FILE = "Attestation Déplacement/Info.plist";
+				INFOPLIST_FILE = Attest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Cynaptic.Attestation-De-placement";
+				PRODUCT_BUNDLE_IDENTIFIER = Cynaptic.Attest;
 				PRODUCT_NAME = Attest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
