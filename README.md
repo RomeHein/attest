@@ -1,4 +1,4 @@
-![Logo](https://imgur.com/v2c8Zso)
+![Logo](https://i.imgur.com/v2c8Zso.jpg)
 
 # Attest
 
@@ -11,11 +11,11 @@ Vos données personnelles ne sont ni collectées, ni communiquées, ni stockées
 !!!!!!Attention!!!!!!
 Cette application existe pour faciliter l'impression de vos attestations. L'utiliser sans imprimer vos documents vous expose à une amende forfaitaire de 135 euros en cas de contrôle!
 
-![Ecran d'accueil](https://imgur.com/s239hL8)
-![Création de profil](https://imgur.com/1JBkU36)
-![Génération des attestations](https://imgur.com/PD9rV6K)
-![Le pdf officiel](https://imgur.com/bmaLKTG)
-![Partager/imprimer le pdf](https://imgur.com/Db27S6V)
+![Ecran d'accueil](https://i.imgur.com/s239hL8.png)
+![Création de profil](https://i.imgur.com/1JBkU36.png)
+![Génération des attestations](https://i.imgur.com/PD9rV6K.png)
+![Le pdf officiel](https://i.imgur.com/bmaLKTG.png)
+![Partager/imprimer le pdf](https://i.imgur.com/Db27S6V.png)
 
 ### Installing
 
