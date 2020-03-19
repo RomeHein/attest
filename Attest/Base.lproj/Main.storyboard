@@ -56,7 +56,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4K-jy-K4b">
                                 <rect key="frame" x="30" y="760" width="354" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="https://github.com/RomeHein/attest/tree/master/Attest"/>
+                                <state key="normal" title="https://github.com/RomeHein/attest"/>
                                 <connections>
                                     <action selector="openLink" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jos-Dq-6Oa"/>
                                 </connections>
@@ -456,7 +456,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPX-kx-c11">
                                 <rect key="frame" x="30" y="109" width="354" height="233"/>
-                                <mutableString key="text">Vos données personnelles ne sont ni collectées, ni communiquées, ni stockées (autre que localement sur votre téléphone). Quand vous créez un profil, toutes les informations relatives à celui-ci sont stockées dans un fichier temporaire au sein même de l'application. Cela permet d'éviter toute synchronisation avec les serveurs iCould. Evidemment, aucune donnée n'est envoyée en dehors de l'application. D'ailleurs celle-ci peut tout à fait être utilisée en mode avion. Pour supprimer vos profils, vous pouvez soit les supprimer un-à-un via la page d'accueil de l'application, soit supprimer l'application de votre téléphone.</mutableString>
+                                <string key="text">Vos données personnelles ne sont ni collectées, ni communiquées, ni stockées (autre que localement sur votre téléphone). Quand vous créez un profil, toutes les informations relatives à celui-ci sont stockées dans un fichier temporaire au sein même de l'application. Cela permet d'éviter toute synchronisation avec les serveurs iCould. Evidemment, aucune donnée n'est envoyée en dehors de l'application. D'ailleurs celle-ci peut tout à fait être utilisée en mode avion. Pour supprimer vos profils, vous pouvez soit les supprimer un-à-un via la page d'accueil de l'application, soit supprimer l'application de votre téléphone.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -476,7 +476,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiO-DB-Rmu">
                                 <rect key="frame" x="30" y="531" width="354" height="30"/>
-                                <state key="normal" title="https://github.com/RomeHein/attest/tree/master/Attest"/>
+                                <state key="normal" title="https://github.com/RomeHein/attest"/>
                                 <connections>
                                     <action selector="openLink" destination="jel-WD-9b7" eventType="touchUpInside" id="2c7-Ey-YDb"/>
                                 </connections>

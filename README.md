@@ -1,7 +1,7 @@
 # Attest
 
 Actualisez et imprimez vos attestations de circulation facilement! 
-Créez vos profil une fois, puis générez vos attestations à la date actualisée!
+Créez vos profils une fois, puis générez vos attestations à la date du jour!
 
 En accord avec la RGDP:
 Vos données personnelles ne sont ni collectées, ni communiquées, ni stockées (autre que localement sur votre téléphone). Vous pouvez supprimer ces données de façon définitive en supprimant simplement l'application de votre téléphone. Le code source de cette application est consultable et vérifiable ici.
@@ -11,8 +11,8 @@ Cette application existe pour faciliter l'impression de vos attestations. L'util
 
 ### Installing
 
-Bientot disponible sur l'appstore. En attente de validation.
-Vous pouvez également l'installer manuellement sur votre iphone si vous avec un compte apple dévelopeur.
+Bientot disponible sur l'appstore. En attente de validation ⏳
+Vous pouvez également l'installer manuellement sur votre iPhone si vous avez un compte apple dévelopeur.
 Depuis peu vous pouvez en ouvrir un gratuitement ici:
 https://developer.apple.com/programs/
 
@@ -20,8 +20,8 @@ https://developer.apple.com/programs/
 ## Contributing
 
 Cette application a été pensée/écrite en moins de 24h...
-Donc beacoup de choses sont à améliorer tant au niveau design qu'au niveau code.
-Toutes participations est la bien venue!
+Donc beaucoup de choses sont à améliorer tant au niveau design qu'au niveau code.
+Toute participation est la bienvenue!
 
 ## Authors
 
@@ -29,4 +29,4 @@ Toutes participations est la bien venue!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License

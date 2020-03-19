@@ -10,7 +10,7 @@ import UIKit
 
 class SettingViewController: UIViewController {
     @IBAction func openLink() {
-        guard let url = URL(string: "https://github.com/RomeHein/attest/tree/master/Attest") else { return }
+        guard let url = URL(string: "https://github.com/RomeHein/attest") else { return }
         UIApplication.shared.open(url)
     }
     
