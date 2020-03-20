@@ -38,22 +38,10 @@ Cette application a été pensée/écrite en moins de 24h...</br>
 Donc beaucoup de choses sont à améliorer tant au niveau design qu'au niveau code.</br>
 Toute participation est la bienvenue!
 
-## Privacy Policies (in english for Apple reviewers)
+## Privacy policies
 
-This app collects 5 personal informations into the app cache storage:
-- Your fullname
-- Your date of birth
-- Your street address
-- Your signature
-
-These informations are never shared/collected anywhere. They stay in the cache app directory and never go outside.
-This means the app does not use any internet connection.
-If you want to remove your data stored in the app, you can simply delete the app from your iOS device. If you want to keep the app, but want to delete a specific profile, you can also use the "supprimer" button present next your profile to safely remove it.
-
-This app does not use any analytics tools. 
-This app does not track any of your behaviours.
-
-This app is GDPR compliant.
+Please refer to the privacy-policy.md file of this repo:
+https://github.com/RomeHein/attest/blob/master/privacy-policy.md
 
 ## Authors
 
