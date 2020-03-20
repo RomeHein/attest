@@ -1,4 +1,6 @@
-<img src="images/logo.png" width="100">
+<p align="center">
+  <img src="images/logo.png" style="float:middle;" width="150">
+</p>
 
 # Attest
 
@@ -19,11 +21,13 @@ Cette application existe pour faciliter l'impression de vos attestations. L'util
 </div>
 </p>
 
-<img src="images/screenshots/onboarding.png" width="100">
-<img src="images/screenshots/create-profile.png" width="100">
-<img src="images/screenshots/home.png" width="100">
-<img src="images/screenshots/attestation-pdf.png" width="100">
-<img src="images/screenshots/share.png" width="100">
+<div>
+<img src="images/screenshots/onboarding.png" width="150">
+<img src="images/screenshots/create-profile.png" width="150">
+<img src="images/screenshots/home.png" width="150">
+<img src="images/screenshots/attestation-pdf.png" width="150">
+<img src="images/screenshots/share.png" width="150">
+</div>
 
 ### Installing
 
