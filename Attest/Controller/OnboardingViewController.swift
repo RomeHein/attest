@@ -25,7 +25,7 @@ class OnboardingViewController: UIViewController, Away {
     }
     
     @IBAction func showWarningMessage() {
-        let alertController = UIAlertController(title: "Attention", message: "Cette application existe pour faciliter l'impression de vos attestations. L'utiliser sans imprimer vos documents vous expose à une amende forfaitaire de 135 euros en cas de contrôle.", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "⚠️", message: "Cette application existe pour faciliter l'impression de vos attestations. L'utiliser sans imprimer vos documents vous expose à une amende forfaitaire de 175 euros en cas de contrôle.", preferredStyle: .alert)
         let action1 = UIAlertAction(title: "Ok, j'ai bien compris", style: .default) { [weak self] (action:UIAlertAction) in
             self?.performSegue(withIdentifier: "create", sender: nil)
         }

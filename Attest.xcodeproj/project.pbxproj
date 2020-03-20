@@ -88,23 +88,19 @@
 		D74E1A872422310F00479DE3 /* Attest */ = {
 			isa = PBXGroup;
 			children = (
+				D77AA36A2424F82100326807 /* View */,
+				D77AA3692424F80700326807 /* Controller */,
 				D75CEB802423798300B12FC1 /* PdfAnnotation */,
-				D74E1AA72422580300479DE3 /* extension */,
+				D74E1AA72422580300479DE3 /* Extension */,
 				D74E1AA32422498B00479DE3 /* Template */,
 				D74E1AA02422496600479DE3 /* model */,
 				D74E1A882422310F00479DE3 /* AppDelegate.swift */,
 				D74E1A8A2422310F00479DE3 /* SceneDelegate.swift */,
-				D74E1A8C2422310F00479DE3 /* OnboardingViewController.swift */,
 				D74E1AA52422548600479DE3 /* Storage.swift */,
-				D74E1A9C2422388500479DE3 /* AttestationViewController.swift */,
-				D74E1A9E242248E700479DE3 /* NewProfileViewController.swift */,
 				D74E1A8E2422310F00479DE3 /* Main.storyboard */,
 				D74E1A912422311200479DE3 /* Assets.xcassets */,
 				D74E1A932422311200479DE3 /* LaunchScreen.storyboard */,
 				D74E1A962422311200479DE3 /* Info.plist */,
-				D75CEB75242295BC00B12FC1 /* SignatureView.swift */,
-				D75CEB772422D18200B12FC1 /* PdfViewController.swift */,
-				D720202F2423C45C00B9393B /* SettingViewController.swift */,
 			);
 			path = Attest;
 			sourceTree = "<group>";
@@ -134,7 +130,7 @@
 			path = Fr;
 			sourceTree = "<group>";
 		};
-		D74E1AA72422580300479DE3 /* extension */ = {
+		D74E1AA72422580300479DE3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				D74E1AA824225A4300479DE3 /* UITextfield+InputView.swift */,
@@ -142,7 +138,7 @@
 				D720202B2423AF4D00B9393B /* UIControl+closure.swift */,
 				D720202D2423B83D00B9393B /* Home.swift */,
 			);
-			path = extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		D75CEB802423798300B12FC1 /* PdfAnnotation */ = {
@@ -153,6 +149,26 @@
 				D75CEB832423962A00B12FC1 /* ChoiceAnnotation.swift */,
 			);
 			path = PdfAnnotation;
+			sourceTree = "<group>";
+		};
+		D77AA3692424F80700326807 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D74E1A8C2422310F00479DE3 /* OnboardingViewController.swift */,
+				D74E1A9C2422388500479DE3 /* AttestationViewController.swift */,
+				D74E1A9E242248E700479DE3 /* NewProfileViewController.swift */,
+				D75CEB772422D18200B12FC1 /* PdfViewController.swift */,
+				D720202F2423C45C00B9393B /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D77AA36A2424F82100326807 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D75CEB75242295BC00B12FC1 /* SignatureView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
