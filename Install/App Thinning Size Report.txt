@@ -1,0 +1,197 @@
+
+App Thinning Size Report for All Variants of Attest
+
+Variant: Attest-184CDC90-8F68-4A62-9552-68E0BE193B48.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 12.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,4 MB uncompressed
+App size: 2,6 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-1A82FC33-0FC5-47F2-9A12-CFFFCD25278A.ipa
+Supported variant descriptors: [device: iPhone10,3, os-version: 13.0], [device: iPhone9,2, os-version: 13.0], [device: iPhone10,6, os-version: 13.0], [device: iPhone9,4, os-version: 13.0], [device: iPhone10,2, os-version: 13.0], [device: iPhone10,5, os-version: 13.0], [device: iPhone11,6, os-version: 13.0], [device: iPhone11,2, os-version: 13.0], [device: iPhone12,3, os-version: 13.0], [device: iPhone11,4, os-version: 13.0], and [device: iPhone12,5, os-version: 13.0]
+App + On Demand Resources size: 282 KB compressed, 507 KB uncompressed
+App size: 282 KB compressed, 507 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-1C273951-966A-4DE2-A0BB-3BC0A5587FE6.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 12.2]
+App + On Demand Resources size: 282 KB compressed, 508 KB uncompressed
+App size: 282 KB compressed, 508 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-2B7348B3-0A87-474A-B6D1-A6164E1A88DD.ipa
+Supported variant descriptors: [device: iPod7,1, os-version: 11.0], [device: iPhone6,2, os-version: 11.0], [device: iPhone8,4, os-version: 11.0], [device: iPhone6,1, os-version: 11.0], [device: iPhone7,2, os-version: 11.0], and [device: iPhone8,1, os-version: 11.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,4 MB uncompressed
+App size: 2,6 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-2FB46165-4E46-4E01-AB9E-335EE18A114C.ipa
+Supported variant descriptors: [device: iPad7,2, os-version: 13.0], [device: iPad8,6, os-version: 13.0], [device: iPad7,4, os-version: 13.0], [device: iPad8,8, os-version: 13.0], [device: iPad11,1, os-version: 13.0], [device: iPad11,2, os-version: 13.0], [device: iPad8,7, os-version: 13.0], [device: iPad11,3, os-version: 13.0], [device: iPad8,3, os-version: 13.0], [device: iPad7,1, os-version: 13.0], [device: iPad8,4, os-version: 13.0], [device: iPad8,5, os-version: 13.0], [device: iPad8,1, os-version: 13.0], [device: iPad6,4, os-version: 13.0], [device: iPad6,3, os-version: 13.0], [device: iPad8,2, os-version: 13.0], [device: iPad11,4, os-version: 13.0], and [device: iPad7,3, os-version: 13.0]
+App + On Demand Resources size: 286 KB compressed, 511 KB uncompressed
+App size: 286 KB compressed, 511 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-3756AF89-1E1D-4DE5-95AF-317465CB9AE1.ipa
+Supported variant descriptors: [device: iPad7,3, os-version: 12.2], [device: iPad8,1, os-version: 12.2], [device: iPad8,3, os-version: 12.2], [device: iPad11,4, os-version: 12.2], [device: iPad8,2, os-version: 12.2], [device: iPad6,4, os-version: 12.2], [device: iPad8,5, os-version: 12.2], [device: iPad11,1, os-version: 12.2], [device: iPad8,8, os-version: 12.2], [device: iPad6,3, os-version: 12.2], [device: iPad7,2, os-version: 12.2], [device: iPad11,2, os-version: 12.2], [device: iPad11,3, os-version: 12.2], [device: iPad7,4, os-version: 12.2], [device: iPad8,7, os-version: 12.2], [device: iPad8,4, os-version: 12.2], [device: iPad7,1, os-version: 12.2], and [device: iPad8,6, os-version: 12.2]
+App + On Demand Resources size: 284 KB compressed, 510 KB uncompressed
+App size: 284 KB compressed, 510 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-3862ECEB-4AF9-4BD4-B7CB-8B28428178B8.ipa
+Supported variant descriptors: [device: iPhone7,1, os-version: 12.0] and [device: iPhone8,2, os-version: 12.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,4 MB uncompressed
+App size: 2,6 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-39CEB07D-287F-4239-B1EC-19FB7CE233FF.ipa
+Supported variant descriptors: [device: iPad6,11, os-version: 12.0], [device: iPad5,2, os-version: 12.0], [device: iPad4,3, os-version: 12.0], [device: iPad5,3, os-version: 12.0], [device: iPad5,4, os-version: 12.0], [device: iPad4,5, os-version: 12.0], [device: iPad4,8, os-version: 12.0], [device: iPad6,12, os-version: 12.0], [device: iPad6,7, os-version: 12.0], [device: iPad4,6, os-version: 12.0], [device: iPad4,9, os-version: 12.0], [device: iPad5,1, os-version: 12.0], [device: iPad7,5, os-version: 12.0], [device: iPad7,6, os-version: 12.0], [device: iPad4,1, os-version: 12.0], [device: iPad6,8, os-version: 12.0], [device: iPad4,2, os-version: 12.0], [device: iPad4,7, os-version: 12.0], and [device: iPad4,4, os-version: 12.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,4 MB uncompressed
+App size: 2,6 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-3E68FE3C-3F80-485A-945A-BB8EA992D34A.ipa
+Supported variant descriptors: [device: iPhone7,1, os-version: 12.2] and [device: iPhone8,2, os-version: 12.2]
+App + On Demand Resources size: 280 KB compressed, 506 KB uncompressed
+App size: 280 KB compressed, 506 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-5E6F53F3-1603-47A6-A62F-1C4F017022CD.ipa
+Supported variant descriptors: [device: iPad8,2, os-version: 12.0], [device: iPad8,8, os-version: 12.0], [device: iPad6,3, os-version: 12.0], [device: iPad7,2, os-version: 12.0], [device: iPad8,4, os-version: 12.0], [device: iPad8,6, os-version: 12.0], [device: iPad6,4, os-version: 12.0], [device: iPad7,4, os-version: 12.0], [device: iPad8,1, os-version: 12.0], [device: iPad8,7, os-version: 12.0], [device: iPad7,3, os-version: 12.0], [device: iPad8,3, os-version: 12.0], [device: iPad7,1, os-version: 12.0], and [device: iPad8,5, os-version: 12.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,4 MB uncompressed
+App size: 2,6 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-7187B4FC-E80E-46B8-B86B-F8BF1B4C8304.ipa
+Supported variant descriptors: [device: iPad7,2, os-version: 11.0], [device: iPad6,3, os-version: 11.0], [device: iPad7,3, os-version: 11.0], [device: iPad7,4, os-version: 11.0], [device: iPad7,1, os-version: 11.0], and [device: iPad6,4, os-version: 11.0]
+App + On Demand Resources size: 2,7 MB compressed, 7,4 MB uncompressed
+App size: 2,7 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-76672651-A4A6-4285-89B8-714D088C3560.ipa
+Supported variant descriptors: [device: iPhone10,6, os-version: 12.2], [device: iPhone11,4, os-version: 12.2], [device: iPhone11,2, os-version: 12.2], [device: iPhone9,4, os-version: 12.2], [device: iPhone10,5, os-version: 12.2], [device: iPhone11,6, os-version: 12.2], [device: iPhone10,3, os-version: 12.2], [device: iPhone9,2, os-version: 12.2], and [device: iPhone10,2, os-version: 12.2]
+App + On Demand Resources size: 280 KB compressed, 506 KB uncompressed
+App size: 280 KB compressed, 506 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-819D0E39-4BD7-47DB-B912-CB2B43180128.ipa
+Supported variant descriptors: [device: iPad5,4, os-version: 12.2], [device: iPad7,6, os-version: 12.2], [device: iPad6,7, os-version: 12.2], [device: iPad6,8, os-version: 12.2], [device: iPad4,8, os-version: 12.2], [device: iPad5,3, os-version: 12.2], [device: iPad4,5, os-version: 12.2], [device: iPad4,7, os-version: 12.2], [device: iPad5,1, os-version: 12.2], [device: iPad4,6, os-version: 12.2], [device: iPad4,1, os-version: 12.2], [device: iPad4,4, os-version: 12.2], [device: iPad4,9, os-version: 12.2], [device: iPad4,2, os-version: 12.2], [device: iPad4,3, os-version: 12.2], [device: iPad7,5, os-version: 12.2], [device: iPad5,2, os-version: 12.2], [device: iPad6,11, os-version: 12.2], and [device: iPad6,12, os-version: 12.2]
+App + On Demand Resources size: 284 KB compressed, 510 KB uncompressed
+App size: 284 KB compressed, 510 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-87526C1B-FD5F-41B3-AC93-BBE31409CEC9.ipa
+Supported variant descriptors: [device: iPhone10,4, os-version: 11.0], [device: iPhone9,1, os-version: 11.0], [device: iPhone10,1, os-version: 11.0], and [device: iPhone9,3, os-version: 11.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,4 MB uncompressed
+App size: 2,6 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-9077525F-29FB-4461-9C6E-26FBF5CA8F81.ipa
+Supported variant descriptors: [device: iPad6,11, os-version: 13.0], [device: iPad5,1, os-version: 13.0], [device: iPad7,6, os-version: 13.0], [device: iPad7,5, os-version: 13.0], [device: iPad6,7, os-version: 13.0], [device: iPad5,4, os-version: 13.0], [device: iPad7,11, os-version: 13.0], [device: iPad7,12, os-version: 13.0], [device: iPad5,3, os-version: 13.0], [device: iPad6,12, os-version: 13.0], [device: iPad5,2, os-version: 13.0], and [device: iPad6,8, os-version: 13.0]
+App + On Demand Resources size: 286 KB compressed, 511 KB uncompressed
+App size: 286 KB compressed, 511 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-9DC6941F-F8DA-4CCB-AA89-028ED55D4FBB.ipa
+Supported variant descriptors: [device: iPhone8,4, os-version: 12.2], [device: iPhone7,2, os-version: 12.2], [device: iPhone6,1, os-version: 12.2], [device: iPhone8,1, os-version: 12.2], [device: iPod7,1, os-version: 12.2], [device: iPhone6,2, os-version: 12.2], and [device: iPod9,1, os-version: 12.2]
+App + On Demand Resources size: 263 KB compressed, 488 KB uncompressed
+App size: 263 KB compressed, 488 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-B865B8ED-CD52-40DF-B8A4-B0B58CACAF24.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 13.0] and [device: iPhone12,1, os-version: 13.0]
+App + On Demand Resources size: 284 KB compressed, 509 KB uncompressed
+App size: 284 KB compressed, 509 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-B9A8F580-8ACA-4642-A621-651037907606.ipa
+Supported variant descriptors: [device: iPhone8,1, os-version: 13.0], [device: iPod9,1, os-version: 13.0], and [device: iPhone8,4, os-version: 13.0]
+App + On Demand Resources size: 265 KB compressed, 490 KB uncompressed
+App size: 265 KB compressed, 490 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-C56E6D90-E323-45C0-98E8-F6FA6CAA7504.ipa
+Supported variant descriptors: [device: iPhone6,1, os-version: 12.0], [device: iPhone8,4, os-version: 12.0], [device: iPhone7,2, os-version: 12.0], [device: iPhone6,2, os-version: 12.0], [device: iPhone8,1, os-version: 12.0], and [device: iPod7,1, os-version: 12.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,3 MB uncompressed
+App size: 2,6 MB compressed, 7,3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-DCB52A36-3CFF-4706-BCEE-11C7D218B467.ipa
+Supported variant descriptors: [device: iPhone8,2, os-version: 13.0]
+App + On Demand Resources size: 282 KB compressed, 507 KB uncompressed
+App size: 282 KB compressed, 507 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-DD28FC33-12A0-4826-9C3D-218BB481F62E.ipa
+Supported variant descriptors: [device: iPhone10,4, os-version: 12.0], [device: iPhone10,1, os-version: 12.0], [device: iPhone9,1, os-version: 12.0], and [device: iPhone9,3, os-version: 12.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,3 MB uncompressed
+App size: 2,6 MB compressed, 7,3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-E7251F92-6082-4C31-9E06-6996D77B6A72.ipa
+Supported variant descriptors: [device: iPhone10,2, os-version: 12.0], [device: iPhone11,4, os-version: 12.0], [device: iPhone10,6, os-version: 12.0], [device: iPhone11,2, os-version: 12.0], [device: iPhone11,6, os-version: 12.0], [device: iPhone10,3, os-version: 12.0], [device: iPhone9,4, os-version: 12.0], [device: iPhone10,5, os-version: 12.0], and [device: iPhone9,2, os-version: 12.0]
+App + On Demand Resources size: 2,6 MB compressed, 7,4 MB uncompressed
+App size: 2,6 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-F03AD3CF-0736-4A37-AD3D-84FE685E2058.ipa
+Supported variant descriptors: [device: iPad5,3, os-version: 11.0], [device: iPad4,9, os-version: 11.0], [device: iPad7,6, os-version: 11.0], [device: iPad6,8, os-version: 11.0], [device: iPad6,11, os-version: 11.0], [device: iPad7,5, os-version: 11.0], [device: iPad5,1, os-version: 11.0], [device: iPad5,2, os-version: 11.0], [device: iPad4,1, os-version: 11.0], [device: iPad4,2, os-version: 11.0], [device: iPad4,4, os-version: 11.0], [device: iPad6,7, os-version: 11.0], [device: iPad5,4, os-version: 11.0], [device: iPad4,3, os-version: 11.0], [device: iPad4,7, os-version: 11.0], [device: iPad4,5, os-version: 11.0], [device: iPad6,12, os-version: 11.0], [device: iPad4,8, os-version: 11.0], and [device: iPad4,6, os-version: 11.0]
+App + On Demand Resources size: 2,7 MB compressed, 7,4 MB uncompressed
+App size: 2,7 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-F213504E-DBDF-4176-8E3A-916242B6679F.ipa
+Supported variant descriptors: [device: iPhone10,1, os-version: 12.2], [device: iPhone9,1, os-version: 12.2], [device: iPhone9,3, os-version: 12.2], and [device: iPhone10,4, os-version: 12.2]
+App + On Demand Resources size: 263 KB compressed, 488 KB uncompressed
+App size: 263 KB compressed, 488 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-F2F1036F-2CDD-4A64-BB70-FC9050549EDD.ipa
+Supported variant descriptors: [device: iPhone7,1, os-version: 11.0] and [device: iPhone8,2, os-version: 11.0]
+App + On Demand Resources size: 2,7 MB compressed, 7,4 MB uncompressed
+App size: 2,7 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-F46041C7-4A11-4891-AF0C-B56946CE5B07.ipa
+Supported variant descriptors: [device: iPhone10,3, os-version: 11.0], [device: iPhone10,2, os-version: 11.0], [device: iPhone9,4, os-version: 11.0], [device: iPhone9,2, os-version: 11.0], [device: iPhone10,6, os-version: 11.0], and [device: iPhone10,5, os-version: 11.0]
+App + On Demand Resources size: 2,7 MB compressed, 7,4 MB uncompressed
+App size: 2,7 MB compressed, 7,4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest-FC6FB3EC-E464-4E41-9755-5E2CB0FC3924.ipa
+Supported variant descriptors: [device: iPhone10,1, os-version: 13.0], [device: iPhone9,3, os-version: 13.0], [device: iPhone10,4, os-version: 13.0], and [device: iPhone9,1, os-version: 13.0]
+App + On Demand Resources size: 265 KB compressed, 490 KB uncompressed
+App size: 265 KB compressed, 490 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Attest.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 3,1 MB compressed, 7,8 MB uncompressed
+App size: 3,1 MB compressed, 7,8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
