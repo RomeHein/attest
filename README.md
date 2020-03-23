@@ -36,11 +36,9 @@ Malheureusement l'application a été refusée par Apple. Ce qui est plutot rass
 Maintenant, il reste plusieurs possibilités pour l'installer:
 - Si vous êtes developeur, ou possédez un compe Apple dévelopeur (c'est possible et gratuit depuis peu: https://developer.apple.com/programs/) vous pouvez build le projet et l'installer ce sur votre device.
 
-- Vous pouvez utiliser le liens ci-dessous pour l'installer directement depuis github:
-<a href="itms-services://?action=download-manifest&amp; 
-    url=https://github.com/RomeHein/attest/install/manifest.plist">
-    Download
-</a>
+- Vous pouvez utiliser le liens ci-dessous pour l'installer directement depuis votre explorateur internet de votre device:
+
+<a href="http://InstallIPA.com#7428" target="_blank" style="display: inline-block; color: #ffffff; background-color: #3498db; border: solid 1px #3498db; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #3498db;">Install Attest</a>
 
 ## Contributing
 
