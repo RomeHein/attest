@@ -34,14 +34,13 @@ Cette application existe pour faciliter l'impression de vos attestations. L'util
 Malheureusement l'application a été refusée par Apple. Ce qui est plutot rassurant. Cela évite d'ouvrir la porte à d'autres applications de ce genre, moins transparentes au niveau de l'utilisation des données utilisateurs!</br>
 
 Maintenant, il reste plusieurs possibilités pour l'installer:
-- Si vous êtes developpeur, ou possédez un compe développeur (c'est possible et gratuir depuis peu: https://developer.apple.com/programs/) vous pouvez build le projet et l'installer ce sur votre device.
+- Si vous êtes developeur, ou possédez un compe Apple dévelopeur (c'est possible et gratuit depuis peu: https://developer.apple.com/programs/) vous pouvez build le projet et l'installer ce sur votre device.
 
-- Vous pouvez utiliser le liens ci-dessous pour l'installer directement depuis github en cliquant sur le liens ci-dessous:
+- Vous pouvez utiliser le liens ci-dessous pour l'installer directement depuis github:
 <a href="itms-services://?action=download-manifest&amp; 
     url=https://github.com/RomeHein/attest/install/manifest.plist">
     Download
 </a>
-
 
 ## Contributing
 
