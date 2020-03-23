@@ -35,7 +35,7 @@ Malheureusement l'application a été refusée par Apple. Ce qui est plutot rass
 
 Maintenant, il reste plusieurs possibilités pour l'installer:
 - Vous pouvez telecharger l'application directement ici: 
-<a href="/RomeHein/attest/Attest.ipa">Télécharger</a>
+<a href="/Attest.ipa">Télécharger</a>
 Une fois télécharger et sur votre ordinateur, un simple glisser-déposer vers la section "Sur mon appareil" dans la barre gauche d'Itunes installe l'application sur votre device.
 
 - Si vous êtes developeur, ou possédez un compe Apple dévelopeur (c'est possible et gratuit depuis peu: https://developer.apple.com/programs/) vous pouvez build le projet et l'installer ce sur votre device.
